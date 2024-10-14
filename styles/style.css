@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: updock;
+  src: url(Updock-Regular.ttf);
+}
+
+.container {
+  padding: 20px;
+}
+
+.title-tail {
+  font-family: updock;
+  text-align: center;
+  font-size: 80px;
+}
