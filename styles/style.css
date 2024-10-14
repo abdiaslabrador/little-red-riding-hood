@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f5e2e2;
 }
 
 @font-face {
@@ -9,12 +10,39 @@ body {
   src: url(Updock-Regular.ttf);
 }
 
-.container {
-  padding: 20px;
+@font-face {
+  font-family: indieflower;
+  src: url(IndieFlower-Regular.ttf);
 }
 
-.title-tail {
-  font-family: updock;
+.container {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.title-container{
   text-align: center;
-  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.title-tale {
+  font-family: updock;
+  font-size: 3rem;
+  border-bottom: 4px solid red;
+}
+
+div p {
+  text-align: justify;
+}
+
+p{
+  font-family: indieflower;
+  font-size: 40px;
+}
+
+.img1{
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 5px;
 }
